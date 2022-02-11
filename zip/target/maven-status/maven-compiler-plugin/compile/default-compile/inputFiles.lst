@@ -1,0 +1,3 @@
+/opt/repos/correomqtt-plugins/zip/src/main/java/com/exxeta/correomqtt/plugins/manipulator/ZipUtils.java
+/opt/repos/correomqtt-plugins/zip/src/main/java/com/exxeta/correomqtt/plugins/manipulator/Unzipper.java
+/opt/repos/correomqtt-plugins/zip/src/main/java/com/exxeta/correomqtt/plugins/manipulator/Zipper.java

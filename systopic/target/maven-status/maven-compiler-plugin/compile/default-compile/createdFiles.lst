@@ -1,0 +1,10 @@
+org/correomqtt/plugins/systopic/model/SysTopic.class
+META-INF/extensions.idx
+org/correomqtt/plugins/systopic/controller/SysTopicViewController.class
+org/correomqtt/plugins/systopic/SysTopicPlugin.class
+org/correomqtt/plugins/systopic/model/SysTopicPropertiesDTO$SysTopicPropertiesDTOBuilder.class
+org/correomqtt/plugins/systopic/model/SysTopicPropertiesDTO.class
+org/correomqtt/plugins/systopic/model/SysTopicTransformer.class
+org/correomqtt/plugins/systopic/controller/SysTopicCellController.class
+org/correomqtt/plugins/systopic/SysTopicExtension.class
+org/correomqtt/plugins/systopic/controller/SysTopicButtonController.class

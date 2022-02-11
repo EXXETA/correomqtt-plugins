@@ -1,0 +1,22 @@
+name: Release CI
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+jobs:
+  linuxbuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+      - run: .github/build.bash
+        id: build
+        shell: bash
+      - name: Release 
+        uses: xresloader/upload-to-github-release@v1.3.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          draft: false
+          file: '**/target/*.jar'
+          tags: true

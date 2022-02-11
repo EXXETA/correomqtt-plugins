@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.correomqtt.plugins</groupId>
+    <artifactId>correomqtt-plugins</artifactId>
+    <version>0.1.0</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>13</maven.compiler.target>
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.release>11</maven.compiler.release>
+        <plugin.provider>EXXETA AG</plugin.provider>
+    </properties>
+
+    <modules>
+        <module>advanced-validator</module>
+        <module>base64</module>
+        <module>contains-string-validator</module>
+        <module>json-format</module>
+        <module>save</module>
+        <module>systopic</module>
+        <module>xml-format</module>
+        <module>xml-xsd-validator</module>
+        <module>zip</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.correomqtt</groupId>
+                <artifactId>correomqtt-client</artifactId>
+                <version>0.14.2</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.pf4j</groupId>
+                <artifactId>pf4j</artifactId>
+                <version>3.1.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-fxml</artifactId>
+                <version>13</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.16</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
