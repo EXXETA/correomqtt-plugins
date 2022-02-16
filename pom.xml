@@ -6,7 +6,7 @@
 
     <groupId>org.correomqtt.plugins</groupId>
     <artifactId>correomqtt-plugins</artifactId>
-    <version>0.1.0</version>
+    <version>0.4.0</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -22,11 +22,11 @@
         <module>base64</module>
         <module>contains-string-validator</module>
         <module>json-format</module>
-        <module>save</module>
+        <module>save-manipulator</module>
         <module>systopic</module>
         <module>xml-format</module>
         <module>xml-xsd-validator</module>
-        <module>zip</module>
+        <module>zip-manipulator</module>
     </modules>
 
     <dependencyManagement>
@@ -34,7 +34,7 @@
             <dependency>
                 <groupId>org.correomqtt</groupId>
                 <artifactId>correomqtt-client</artifactId>
-                <version>0.14.2</version>
+                <version>0.15.0</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
