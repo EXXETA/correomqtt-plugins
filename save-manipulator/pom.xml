@@ -4,19 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.correomqtt.plugins</groupId>
-    <artifactId>zip</artifactId>
+    <artifactId>save-manipulator</artifactId>
 
     <parent>
         <groupId>org.correomqtt.plugins</groupId>
         <artifactId>correomqtt-plugins</artifactId>
-        <version>0.1.0</version>
+        <version>0.4.0</version>
     </parent>
 
     <properties>
-        <plugin.id>zip</plugin.id>
-        <plugin.class />
-        <plugin.description>Provides zip and unzip manipulators</plugin.description>
+        <plugin.id>save-manipulator-plugin</plugin.id>
+        <plugin.class>org.correomqtt.plugins.save.SavePlugin</plugin.class>
+        <plugin.description>Saves message selection to a file</plugin.description>
         <plugin.requires />
         <plugin.dependencies />
         <plugin.license />

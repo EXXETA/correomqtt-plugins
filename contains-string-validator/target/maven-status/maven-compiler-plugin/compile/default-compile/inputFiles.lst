@@ -1,3 +1,4 @@
+/opt/repos/correomqtt-plugins/contains-string-validator/src/main/java/org/correomqtt/plugins/contains_string_validator/ContainsStringValidatorConfig.java
 /opt/repos/correomqtt-plugins/contains-string-validator/src/main/java/org/correomqtt/plugins/contains_string_validator/ContainsStringValidator.java
 /opt/repos/correomqtt-plugins/contains-string-validator/src/main/java/org/correomqtt/plugins/contains_string_validator/CaseSensitiveContainsStringValidator.java
 /opt/repos/correomqtt-plugins/contains-string-validator/src/main/java/org/correomqtt/plugins/contains_string_validator/IgnoreCaseContainsStringValidator.java

@@ -19,26 +19,28 @@ import java.io.IOException;
 import java.io.StringReader;
 
 @Extension
-public class XmlXsdValidator implements MessageValidatorHook {
+public class XmlXsdValidator implements MessageValidatorHook<XmlXsdValidatorConfig> {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(XmlXsdValidator.class);
 
     private String schemaFile;
-    private PermissionPlugin plugin;
+    private final PermissionPlugin plugin;
 
     public XmlXsdValidator(Plugin plugin) {
         this.plugin = (PermissionPlugin) plugin;
     }
 
     @Override
-    public void onConfigReceived(Element config) {
-        schemaFile = config.getChildText("schema");
+    public void onConfigReceived(XmlXsdValidatorConfig config) {
+        schemaFile = config.getSchema();
     }
 
     @Override
     public Validation isMessageValid(String payload) {
         try {
             SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+            factory.setProperty(XMLConstants.ACCESS_EXTERNAL_DTD, "");
+            factory.setProperty(XMLConstants.ACCESS_EXTERNAL_SCHEMA, "");
             Schema schema = factory.newSchema(new File(plugin.getPluginConfigFolder(), schemaFile));
             Validator validator = schema.newValidator();
             validator.validate(new StreamSource(new StringReader(payload)));

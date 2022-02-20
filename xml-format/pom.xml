@@ -9,11 +9,11 @@
     <parent>
         <groupId>org.correomqtt.plugins</groupId>
         <artifactId>correomqtt-plugins</artifactId>
-        <version>0.1.0</version>
+        <version>0.4.0</version>
     </parent>
 
     <properties>
-        <plugin.id>xml-format</plugin.id>
+        <plugin.id>xml-format-plugin</plugin.id>
         <plugin.class />
         <plugin.description>Formats messages into readable XML</plugin.description>
         <plugin.requires />

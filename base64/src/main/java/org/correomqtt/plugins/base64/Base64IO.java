@@ -1,12 +1,12 @@
 package org.correomqtt.plugins.base64;
 
 import org.correomqtt.plugin.model.MessageExtensionDTO;
-import org.correomqtt.plugin.spi.MessageIncomingHook;
-import org.correomqtt.plugin.spi.PublishMessageHook;
+import org.correomqtt.plugin.spi.IncomingMessageHook;
+import org.correomqtt.plugin.spi.OutgoingMessageHook;
 import org.pf4j.Extension;
 
 @Extension
-public class Base64IO implements PublishMessageHook, MessageIncomingHook {
+public class Base64IO implements OutgoingMessageHook, IncomingMessageHook {
 
     @Override
     public MessageExtensionDTO onMessageIncoming(String connectionId, MessageExtensionDTO extensionMessageDTO) {
