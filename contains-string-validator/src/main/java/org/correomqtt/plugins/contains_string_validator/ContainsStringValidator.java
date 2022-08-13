@@ -1,14 +1,20 @@
 package org.correomqtt.plugins.contains_string_validator;
 
+import lombok.extern.slf4j.Slf4j;
 import org.correomqtt.plugin.spi.MessageValidatorHook;
-import org.jdom2.Element;
 
-public abstract class ContainsStringValidator implements MessageValidatorHook {
+@Slf4j
+public abstract class ContainsStringValidator implements MessageValidatorHook<ContainsStringValidatorConfig> {
 
     protected String text;
 
     @Override
-    public void onConfigReceived(Element config) {
-        text = config.getChildText("string");
+    public Class<ContainsStringValidatorConfig> getConfigClass(){
+        return ContainsStringValidatorConfig.class;
+    }
+
+    @Override
+    public void onConfigReceived(ContainsStringValidatorConfig config) {
+        text = config.getText();
     }
 }

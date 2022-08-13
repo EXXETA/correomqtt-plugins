@@ -9,12 +9,12 @@
     <parent>
         <groupId>org.correomqtt.plugins</groupId>
         <artifactId>correomqtt-plugins</artifactId>
-        <version>0.1.0</version>
+        <version>0.4.0</version>
     </parent>
 
 
     <properties>
-        <plugin.id>contains-string-validator</plugin.id>
+        <plugin.id>contains-string-validator-plugin</plugin.id>
         <plugin.class />
         <plugin.description>Checks if the message contains a given string</plugin.description>
         <plugin.requires />

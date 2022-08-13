@@ -9,11 +9,11 @@
     <parent>
         <groupId>org.correomqtt.plugins</groupId>
         <artifactId>correomqtt-plugins</artifactId>
-        <version>0.1.0</version>
+        <version>0.4.0</version>
     </parent>
 
     <properties>
-        <plugin.id>advanced-validator</plugin.id>
+        <plugin.id>advanced-validator-plugin</plugin.id>
         <plugin.class />
         <plugin.description>Advanced message validation with and + or conjunctions</plugin.description>
         <plugin.requires/>
