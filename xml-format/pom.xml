@@ -14,11 +14,16 @@
 
     <properties>
         <plugin.id>xml-format-plugin</plugin.id>
+        <plugin.name>XML Format Plugin</plugin.name>
+        <plugin.provider>Exxeta AG</plugin.provider>
         <plugin.class />
         <plugin.description>Formats messages into readable XML</plugin.description>
         <plugin.requires />
         <plugin.dependencies />
-        <plugin.license />
+        <plugin.license>GPL</plugin.license>
+        <plugin.repositoryId>default</plugin.repositoryId>
+        <plugin.projectUrl>http://www.correomqtt.org</plugin.projectUrl>
+        <plugin.compatibleCorreoVersions>0.15.0</plugin.compatibleCorreoVersions>
     </properties>
 
     <dependencies>

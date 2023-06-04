@@ -1,5 +1,5 @@
 META-INF/extensions.idx
-org/correomqtt/plugins/advanced_validator/AdvancedValidatorConfig$AdvancedValidatorConfigBuilder.class
-org/correomqtt/plugins/advanced_validator/AdvancedValidatorExtension$1.class
-org/correomqtt/plugins/advanced_validator/AdvancedValidatorExtension.class
-org/correomqtt/plugins/advanced_validator/AdvancedValidatorConfig.class
+org/correomqtt/plugin/advanced_validator/AdvancedValidatorExtension.class
+org/correomqtt/plugin/advanced_validator/AdvancedValidatorConfig.class
+org/correomqtt/plugin/advanced_validator/AdvancedValidatorConfig$AdvancedValidatorConfigBuilder.class
+org/correomqtt/plugin/advanced_validator/AdvancedValidatorExtension$1.class

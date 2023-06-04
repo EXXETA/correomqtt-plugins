@@ -14,11 +14,16 @@
 
     <properties>
         <plugin.id>xml-xsd-validator-plugin</plugin.id>
-        <plugin.class>org.correomqtt.plugins.xml_xsd_validator.XmlXsdValidatorPlugin</plugin.class>
+        <plugin.name>XML/XSD Validator Plugin</plugin.name>
+        <plugin.provider>Exxeta AG</plugin.provider>
+        <plugin.class>org.correomqtt.plugin.xml_xsd_validator.XmlXsdValidatorPlugin</plugin.class>
         <plugin.description>Validates xml messages to a given xsd file</plugin.description>
         <plugin.requires/>
         <plugin.dependencies/>
-        <plugin.license/>
+        <plugin.license>GPL</plugin.license>
+        <plugin.repositoryId>default</plugin.repositoryId>
+        <plugin.projectUrl>http://www.correomqtt.org</plugin.projectUrl>
+        <plugin.compatibleCorreoVersions>0.15.0</plugin.compatibleCorreoVersions>
     </properties>
 
     <dependencies>

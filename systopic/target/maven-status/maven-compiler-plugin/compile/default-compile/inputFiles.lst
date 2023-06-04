@@ -1,6 +1,6 @@
 /opt/repos/correomqtt-plugins/systopic/src/main/java/org/correomqtt/plugins/systopic/controller/SysTopicViewController.java
-/opt/repos/correomqtt-plugins/systopic/src/main/java/org/correomqtt/plugins/systopic/model/SysTopic.java
 /opt/repos/correomqtt-plugins/systopic/src/main/java/org/correomqtt/plugins/systopic/model/SysTopicPropertiesDTO.java
+/opt/repos/correomqtt-plugins/systopic/src/main/java/org/correomqtt/plugins/systopic/model/SysTopic.java
 /opt/repos/correomqtt-plugins/systopic/src/main/java/org/correomqtt/plugins/systopic/controller/SysTopicButtonController.java
 /opt/repos/correomqtt-plugins/systopic/src/main/java/org/correomqtt/plugins/systopic/model/SysTopicTransformer.java
 /opt/repos/correomqtt-plugins/systopic/src/main/java/org/correomqtt/plugins/systopic/SysTopicExtension.java

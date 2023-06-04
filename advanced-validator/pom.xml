@@ -14,23 +14,30 @@
 
     <properties>
         <plugin.id>advanced-validator-plugin</plugin.id>
-        <plugin.class />
+        <plugin.class/>
+        <plugin.name>Advanced Validator Plugin</plugin.name>
+        <plugin.provider>Exxeta AG</plugin.provider>
         <plugin.description>Advanced message validation with and + or conjunctions</plugin.description>
         <plugin.requires/>
         <plugin.dependencies/>
-        <plugin.license/>
+        <plugin.license>GPL</plugin.license>
+        <plugin.repositoryId>default</plugin.repositoryId>
+        <plugin.projectUrl>http://www.correomqtt.org</plugin.projectUrl>
+        <plugin.compatibleCorreoVersions>0.15.0</plugin.compatibleCorreoVersions>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.correomqtt</groupId>
             <artifactId>correomqtt-client</artifactId>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.pf4j</groupId>
             <artifactId>pf4j</artifactId>
-            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

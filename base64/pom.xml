@@ -15,11 +15,16 @@
 
     <properties>
         <plugin.id>base64-plugin</plugin.id>
+        <plugin.name>Base64</plugin.name>
+        <plugin.provider>Exxeta AG</plugin.provider>
         <plugin.class />
         <plugin.description>Decodes Base64 encoded messages</plugin.description>
         <plugin.requires />
         <plugin.dependencies />
-        <plugin.license />
+        <plugin.license>GPL</plugin.license>
+        <plugin.repositoryId>default</plugin.repositoryId>
+        <plugin.projectUrl>http://www.correomqtt.org</plugin.projectUrl>
+        <plugin.compatibleCorreoVersions>0.15.0</plugin.compatibleCorreoVersions>
     </properties>
 
     <dependencies>

@@ -15,6 +15,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
+
 import org.correomqtt.business.dispatcher.SubscribeDispatcher;
 import org.correomqtt.business.dispatcher.SubscribeObserver;
 import org.correomqtt.business.model.ConnectionConfigDTO;
@@ -23,7 +24,7 @@ import org.correomqtt.business.model.Qos;
 import org.correomqtt.business.model.SubscriptionDTO;
 import org.correomqtt.business.provider.SettingsProvider;
 import org.correomqtt.business.utils.ConnectionHolder;
-import org.correomqtt.gui.business.TaskFactory;
+import org.correomqtt.gui.business.MessageTaskFactory;
 import org.correomqtt.gui.helper.ClipboardHelper;
 import org.correomqtt.gui.model.SubscriptionPropertiesDTO;
 import org.correomqtt.gui.model.WindowProperty;
@@ -40,7 +41,6 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.*;
 import java.util.stream.Collectors;
-
 
 @SuppressWarnings("ALL")
 public class SysTopicViewController implements SubscribeObserver {
@@ -91,7 +91,9 @@ public class SysTopicViewController implements SubscribeObserver {
                 event ->sysTopicViewController.onCloseDialog());
     }
 
-    private void onCloseDialog() { TaskFactory.unsubscribe(getConnectionId(), subscriptionDTO);}
+    private void onCloseDialog() {
+        MessageTaskFactory.unsubscribe(getConnectionId(), subscriptionDTO);
+    }
 
     @FXML
     private void initialize() {
@@ -105,7 +107,7 @@ public class SysTopicViewController implements SubscribeObserver {
         listView.setItems(sysTopics);
         listView.setCellFactory(this::createCell);
 
-        TaskFactory.subscribe(getConnectionId(), subscriptionDTO);
+        MessageTaskFactory.subscribe(getConnectionId(), subscriptionDTO);
     }
 
     private ListCell<SysTopicPropertiesDTO> createCell(ListView<SysTopicPropertiesDTO> listView) {

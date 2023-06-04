@@ -1,5 +1,5 @@
-org/correomqtt/plugins/base64/Base64IO.class
+org/correomqtt/plugin/base64/Base64ManipulateEncoder.class
 META-INF/extensions.idx
-org/correomqtt/plugins/base64/Base64ManipulateEncoder.class
-org/correomqtt/plugins/base64/Base64ManipulateDecoder.class
-org/correomqtt/plugins/base64/Base64Utils.class
+org/correomqtt/plugin/base64/Base64ManipulateDecoder.class
+org/correomqtt/plugin/base64/Base64Utils.class
+org/correomqtt/plugin/base64/Base64IO.class

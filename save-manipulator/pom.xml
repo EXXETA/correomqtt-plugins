@@ -14,11 +14,16 @@
 
     <properties>
         <plugin.id>save-manipulator-plugin</plugin.id>
-        <plugin.class>org.correomqtt.plugins.save.SavePlugin</plugin.class>
+        <plugin.name>Save Manipulator Plugin</plugin.name>
+        <plugin.provider>Exxeta AG</plugin.provider>
+        <plugin.class>org.correomqtt.plugin.save.SavePlugin</plugin.class>
         <plugin.description>Saves message selection to a file</plugin.description>
         <plugin.requires />
         <plugin.dependencies />
-        <plugin.license />
+        <plugin.license>GPL</plugin.license>
+        <plugin.repositoryId>default</plugin.repositoryId>
+        <plugin.projectUrl>http://www.correomqtt.org</plugin.projectUrl>
+        <plugin.compatibleCorreoVersions>0.15.0</plugin.compatibleCorreoVersions>
     </properties>
 
     <dependencies>

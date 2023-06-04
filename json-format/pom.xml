@@ -14,11 +14,16 @@
 
     <properties>
         <plugin.id>json-format-plugin</plugin.id>
-        <plugin.class>org.correomqtt.plugins.json_format.JsonFormatPlugin</plugin.class>
+        <plugin.name>JSON Format Plugin</plugin.name>
+        <plugin.provider>Exxeta AG</plugin.provider>
+        <plugin.class>org.correomqtt.plugin.json_format.JsonFormatPlugin</plugin.class>
         <plugin.description>Formats messages into readable JSON</plugin.description>
         <plugin.requires />
         <plugin.dependencies />
-        <plugin.license />
+        <plugin.license>GPL</plugin.license>
+        <plugin.repositoryId>default</plugin.repositoryId>
+        <plugin.projectUrl>http://www.correomqtt.org</plugin.projectUrl>
+        <plugin.compatibleCorreoVersions>0.15.0</plugin.compatibleCorreoVersions>
     </properties>
 
     <dependencies>

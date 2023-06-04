@@ -1,0 +1,172 @@
+[
+  {
+    "id": "advanced-validator-plugin",
+    "name": "Advanced Validator",
+    "description": "Provides advances validation",
+    "provider": "Exxeta AG",
+    "projectUrl": "http://www.correomqtt.org",
+    "repositoryId": "default",
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2023-01-02",
+        "requires": "",
+        "url": "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/advanced-validator-0.4.0.jar",
+        "sha512sum": "922c85ad522aaeffa8d17d00e2854b4d1d6984770093d957e9a7056ed105ff50aaf51d2025adcd1dcfba5d6d7dd929d71d654f71ad8451208fdd0dd797e543aa",
+        "pluginApiLevel": "1.0.0"
+      }
+    ]
+  },
+  {
+    "id": "base64-plugin",
+    "name": "Base64",
+    "description": "Provides Base64",
+    "provider": "Exxeta AG",
+    "projectUrl": "http://www.correomqtt.org",
+    "repositoryId": "default",
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2023-01-01",
+        "requires": "",
+        "url": "file:///opt/oldbackup/opt/opt/repos/correomqtt-plugins/base64/target/base64-0.4.0.jar",
+        "sha512sum": "a678a09d37cc6c4732e582f2d60b57239b635a1cb4f3bbba6b71338422b40808270f973344ca8f43b9738340e344338aef6701b0a15a0280653cc79528f13d9f",
+        "pluginApiLevel": "1.0.0"
+      }
+    ]
+  },
+  {
+    "id": "contains-string-validator-plugin",
+    "name": "Contains String Validator",
+    "description": "Provides a contains string validator",
+    "provider": "Exxeta AG",
+    "projectUrl": "http://www.correomqtt.org",
+    "repositoryId": "default",
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2023-01-01",
+        "requires": "",
+        "url": "file:///opt/oldbackup/opt/opt/repos/correomqtt-plugins/contains-string-validator/target/contains-string-validator-0.4.0.jar",
+        "sha512sum": "f2327cbc6dadad347365212be1fd219ff90c669468664a81fe4dc85bb9e798c225841588061916e02c473475c6396404e644df170aa77262f303a0577c1b296e",
+        "pluginApiLevel": "1.0.0"
+      }
+    ]
+  },
+  {
+    "id": "save-manipulator-plugin",
+    "name": "Save Manipulator",
+    "description": "Provides a save manipulator",
+    "provider": "Exxeta AG",
+    "projectUrl": "http://www.correomqtt.org",
+    "repositoryId": "default",
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2023-01-01",
+        "requires": "",
+        "url": "file:///opt/oldbackup/opt/opt/repos/correomqtt-plugins/save-manipulator/target/save-manipulator-0.4.0.jar",
+        "sha512sum": "3426f8e82430646a5f885acb38f753b8866f2254535d3f020425ccf9d9246e49a115e89e60e4a3fbcb90b473ed0b6cd3b1592f98df71df82aa45d056b77e548b",
+        "pluginApiLevel": "1.0.0"
+      }
+    ]
+  },
+  {
+    "id": "systopic-plugin",
+    "name": "Systopic",
+    "description": "Provides Systopic",
+    "provider": "Exxeta AG",
+    "projectUrl": "http://www.correomqtt.org",
+    "repositoryId": "default",
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2023-01-01",
+        "requires": "",
+        "url": "file:///opt/oldbackup/opt/opt/repos/correomqtt-plugins/systopic/target/systopic-0.4.0.jar",
+        "sha512sum": "9b1ccddbf3cdf0edb6152af56e54829d0495ab18c63a12e5113272c300fd357baf226d53c686dca364c9d2b0cd78a7d80864148804e51dc782d7d454adb7d891",
+        "pluginApiLevel": "1.0.0"
+      }
+    ]
+  },
+  {
+    "id": "json-format-plugin",
+    "name": "JSON Format",
+    "description": "Formats JSON in messages",
+    "provider": "Exxeta AG",
+    "projectUrl": "http://www.correomqtt.org",
+    "repositoryId": "default",
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2023-01-01",
+        "requires": "",
+        "url": "file:///opt/oldbackup/opt/opt/repos/correomqtt-plugins/json-format/target/json-format-0.4.0.jar",
+        "sha512sum": "2aff19c64e186eec7669cb338e89f115e8ec98528a041f5a830aff45c7465735f10216cc62b29871be34f3eaed4caaf38108e2cb582b605f0474094b9653ec84",
+        "pluginApiLevel": "1.0.0"
+      }
+    ]
+  },
+  {
+    "id": "xml-format-plugin",
+    "name": "XML Format",
+    "description": "Provides XML Format",
+    "provider": "Exxeta AG",
+    "projectUrl": "http://www.correomqtt.org",
+    "repositoryId": "default",
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2023-01-01",
+        "requires": "",
+        "url": "file:///opt/oldbackup/opt/opt/repos/correomqtt-plugins/xml-format/target/xml-format-0.4.0.jar",
+        "sha512sum": "5840ae6a902b2911a235a8a99931852e46d394bfb4b64347ad39f9ff099f23d24767e36140712447afc9979695ff356d9aeca76eeafff2063f23b4f733ba23af",
+        "pluginApiLevel": "1.0.0"
+      }
+    ]
+  },
+  {
+    "id": "xml-xsd-validator-plugin",
+    "name": "XML XSD Validator",
+    "description": "Provides XML XSD Validator",
+    "provider": "Exxeta AG",
+    "projectUrl": "http://www.correomqtt.org",
+    "repositoryId": "default",
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2023-01-01",
+        "requires": "",
+        "url": "file:///opt/oldbackup/opt/opt/repos/correomqtt-plugins/xml-xsd-validator/target/xml-xsd-validator-0.4.0.jar",
+        "sha512sum": "d3ad6ea788ae63c442fdf63e62ec392e8ae87d0f3bc7ef07ddf8707aec8eb19716321eb6aae3447e74194383194948359ee013d2e69b980c249348aebd9bd07e",
+        "pluginApiLevel": "1.0.0"
+      }
+    ]
+  },
+  {
+    "id": "zip-manipulator-plugin",
+    "name": "ZIP manipulator",
+    "description": "Provides ZIP Manipulator",
+    "provider": "Exxeta AG",
+    "projectUrl": "http://www.correomqtt.org",
+    "repositoryId": "default",
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2023-01-01",
+        "requires": "",
+        "url": "file:///opt/oldbackup/opt/opt/repos/correomqtt-plugins/zip-manipulator/target/zip-manipulator-0.4.0.jar",
+        "sha512sum": "fc3edaf735f3c0af274f216b6722c53283091276352ae60f3f2907e39f2dfcca3dfd917f9afb61b4dc4b41534af0d8149a3b7b2d13fdc51a45c4c60c62e37247",
+        "pluginApiLevel": "1.0.0"
+      },
+      {
+        "version": "0.5.0",
+        "date": "2023-01-01",
+        "requires": "",
+        "url": "file:///opt/oldbackup/opt/opt/repos/correomqtt-plugins/zip-manipulator/target/zip-manipulator-0.4.0.jar",
+        "sha512sum": "fc3edaf735f3c0af274f216b6722c53283091276352ae60f3f2907e39f2dfcca3dfd917f9afb61b4dc4b41534af0d8149a3b7b2d13fdc51a45c4c60c62e37247",
+        "pluginApiLevel": "1.0.0"
+      }
+    ]
+  }
+]

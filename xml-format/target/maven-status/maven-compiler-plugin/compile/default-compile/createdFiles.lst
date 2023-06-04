@@ -1,2 +1,2 @@
 META-INF/extensions.idx
-org/exxeta/correomqtt/plugins/xml_format/XmlFormatPlugin.class
+org/correomqtt/plugin/xml_format/XmlFormatPlugin.class

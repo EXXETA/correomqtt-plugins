@@ -1,5 +1,5 @@
 META-INF/extensions.idx
-org/correomqtt/plugins/xml_xsd_validator/XmlXsdValidatorConfig.class
-org/correomqtt/plugins/xml_xsd_validator/XmlXsdValidatorPlugin.class
-org/correomqtt/plugins/xml_xsd_validator/XmlXsdValidatorConfig$XmlXsdValidatorConfigBuilder.class
-org/correomqtt/plugins/xml_xsd_validator/XmlXsdValidator.class
+org/correomqtt/plugin/xml_xsd_validator/XmlXsdValidator.class
+org/correomqtt/plugin/xml_xsd_validator/XmlXsdValidatorPlugin.class
+org/correomqtt/plugin/xml_xsd_validator/XmlXsdValidatorConfig.class
+org/correomqtt/plugin/xml_xsd_validator/XmlXsdValidatorConfig$XmlXsdValidatorConfigBuilder.class
