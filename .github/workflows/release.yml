@@ -15,15 +15,15 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: '13'
+          java-version: '17'
       - name: Build
         shell: bash
-        run: mvn clean install
+        run: mvn clean install -DrepoBaseUrl=https://github.com/EXXETA/correomqtt-plugins/releases/download/${{ github.event.release.tag_name }}/
       - name: Release 
         uses: xresloader/upload-to-github-release@v1.3.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           draft: false
-          file: '**/target/*.jar'
+          file: '**/target/*.jar,default-repo.json'
           tags: true
