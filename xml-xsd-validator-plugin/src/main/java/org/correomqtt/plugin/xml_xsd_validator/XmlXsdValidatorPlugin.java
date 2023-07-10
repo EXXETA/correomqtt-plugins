@@ -1,11 +1,10 @@
 package org.correomqtt.plugin.xml_xsd_validator;
 
-import org.correomqtt.plugin.manager.PermissionPlugin;
-import org.pf4j.PluginWrapper;
+import org.pf4j.Plugin;
 
-public class XmlXsdValidatorPlugin extends PermissionPlugin {
+public class XmlXsdValidatorPlugin extends Plugin {
 
-    public XmlXsdValidatorPlugin(PluginWrapper wrapper) {
-        super(wrapper);
+    public XmlXsdValidatorPlugin() {
+        super();
     }
 }
