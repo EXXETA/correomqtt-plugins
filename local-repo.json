@@ -5,18 +5,11 @@
   "provider" : "Exxeta AG",
   "projectUrl" : "http://www.correomqtt.org",
   "releases" : [ {
-    "version" : "0.3.0",
-    "date" : "2023-06-04",
-    "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/advanced-validator-plugin-0.4.0.jar",
-    "sha512sum" : "051170c03a78c3645be055c40a07ff08973e47d309e1077e760c9e0baffc9dbcc51de64a84140d14fe8b8358bcf9f324165a9ac6ed0cf0faa351809c4fa7b73c",
-    "compatibleCorreoVersions" : [ "0.15.0" ]
-  }, {
     "version" : "0.4.0",
-    "date" : "2023-06-04",
+    "date" : "2023-06-07",
     "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/advanced-validator-plugin-0.4.0.jar",
-    "sha512sum" : "9ad40b9cff14960454f87aa98dd17a5ad26dc9e840d8ca864df8ad39f0b48799d37ab790925dda65d4e8e36e4f3831849f16bb5db32fcde9581782692c777be0",
+    "url" : "file:///opt/repos/correomqtt-plugins/advanced-validator-plugin/target/advanced-validator-plugin-0.4.0.jar",
+    "sha512sum" : "25c8097ffa3b23a9dc7a3a4c1bbd88c00b3462aad58daf6d6b454eceac2f1b715ca3250288c8ab50848b7be621634a46bdf8c2885c486d1a28103bb2e369dea7",
     "compatibleCorreoVersions" : [ "0.15.0" ]
   } ],
   "repositoryId" : "default"
@@ -28,10 +21,10 @@
   "projectUrl" : "http://www.correomqtt.org",
   "releases" : [ {
     "version" : "0.4.0",
-    "date" : "2023-06-04",
+    "date" : "2023-06-07",
     "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/base64-plugin-0.4.0.jar",
-    "sha512sum" : "10f0733cf6d525b3c79697cc97cbbcb2021680004deb235e508176d3c5a422bc483dcc045cbc222e81f680747143fa325b3d2b51035582cc57584a846ed5309f",
+    "url" : "file:///opt/repos/correomqtt-plugins/base64-plugin/target/base64-plugin-0.4.0.jar",
+    "sha512sum" : "ce400b045038b1c1f435c582556b83990fc5dfb72a562dc77e009cfa1736bd3d6e90bcbfa51b023bd7d051d7c2bfc95c5611028a8df21c6b9f685089ccf9ab6a",
     "compatibleCorreoVersions" : [ "0.15.0" ]
   } ],
   "repositoryId" : "default"
@@ -43,10 +36,10 @@
   "projectUrl" : "http://www.correomqtt.org",
   "releases" : [ {
     "version" : "0.4.0",
-    "date" : "2023-06-04",
+    "date" : "2023-06-07",
     "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/contains-string-validator-plugin-0.4.0.jar",
-    "sha512sum" : "6c3879437aa68fec60ed02a19bdbf79b35a0675a13a404110416dde61f47dbb85ee89dcf20a599b84d2e2e7af850f2c25b323e748c737c50a6cd2418f296ec53",
+    "url" : "file:///opt/repos/correomqtt-plugins/contains-string-validator-plugin/target/contains-string-validator-plugin-0.4.0.jar",
+    "sha512sum" : "c2c74901a38a0617a1db78d17e2e38ebcf15f3f1dd0870d2bc79a14cd085fdca2d6a25f137d60d3fb0311bb32116a997ce9c9af9bc7cc09a8c209f4bcc6a5185",
     "compatibleCorreoVersions" : [ "0.15.0" ]
   } ],
   "repositoryId" : "default"
@@ -58,10 +51,10 @@
   "projectUrl" : "http://www.correomqtt.org",
   "releases" : [ {
     "version" : "0.4.0",
-    "date" : "2023-06-04",
+    "date" : "2023-06-07",
     "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/json-format-plugin-0.4.0.jar",
-    "sha512sum" : "51d687fad962ce8c72c19c2538a7c7aee6aee562fc83908321649d2810fc2e9826e835ff54ea2e42221f1843f0a8f6b498c9880289992ccd942636667f559fcc",
+    "url" : "file:///opt/repos/correomqtt-plugins/json-format-plugin/target/json-format-plugin-0.4.0.jar",
+    "sha512sum" : "2f851c1b10fbdd71e5c8f41560925dbff900960548d47532554c5372e0ec13c3613c7badbb6d650d0c80f92ddf35a40fd128633aa3878ae50653b81f8359d318",
     "compatibleCorreoVersions" : [ "0.15.0" ]
   } ],
   "repositoryId" : "default"
@@ -73,10 +66,10 @@
   "projectUrl" : "http://www.correomqtt.org",
   "releases" : [ {
     "version" : "0.4.0",
-    "date" : "2023-06-04",
+    "date" : "2023-06-07",
     "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/save-manipulator-plugin-0.4.0.jar",
-    "sha512sum" : "351b45b9284002a9d1a0bd331f477ceffadbf0a96bf61fbd62cc1a9a2a3b0e9efad57e8a26dc87dd47774f72ce9d90197dea4a3e2ba75086ac0f46b553d67e31",
+    "url" : "file:///opt/repos/correomqtt-plugins/save-manipulator-plugin/target/save-manipulator-plugin-0.4.0.jar",
+    "sha512sum" : "33ad4c6ff788d3e7961fb8c1522b076aa19c91ad38b5be1fbf44c095be09cb507b536bcc75aeeef12e5a332778913d5c7c934674c604fbaba7f21b6a7a9044b7",
     "compatibleCorreoVersions" : [ "0.15.0" ]
   } ],
   "repositoryId" : "default"
@@ -88,10 +81,10 @@
   "projectUrl" : "http://www.correomqtt.org",
   "releases" : [ {
     "version" : "0.4.0",
-    "date" : "2023-06-04",
+    "date" : "2023-06-07",
     "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/systopic-plugin-0.4.0.jar",
-    "sha512sum" : "06e7e3dbf3aa5db9831d3236c1506e04867d1d2c2702f4b85227e9b31cf00ff2f196dd4158d5257c6f2196142f5b224dd7129a976631ec62a40243b8655a08f3",
+    "url" : "file:///opt/repos/correomqtt-plugins/systopic-plugin/target/systopic-plugin-0.4.0.jar",
+    "sha512sum" : "75a523f684fcd14b39ce5d5b434616e47778a62369ec11bcc16b4290b33717cc01e8a520dea9e8165436c193344027e03cba04615993c793e08d2fa6bab034c4",
     "compatibleCorreoVersions" : [ "0.15.0" ]
   } ],
   "repositoryId" : "default"
@@ -103,10 +96,10 @@
   "projectUrl" : "http://www.correomqtt.org",
   "releases" : [ {
     "version" : "0.4.0",
-    "date" : "2023-06-04",
+    "date" : "2023-06-07",
     "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/xml-format-plugin-0.4.0.jar",
-    "sha512sum" : "54608c6ef33261db4d1c620eaa4560b0cc2478b9222c44eafe4f05675647c7b6e3abc3ae6836f1dd24268f66e4f4cf4c1c99371b398be97ca897b5ea49f21339",
+    "url" : "file:///opt/repos/correomqtt-plugins/xml-format-plugin/target/xml-format-plugin-0.4.0.jar",
+    "sha512sum" : "1d0026306fbd738f7022017214f8f7e44bfbe9a79f259fb3fed4c982a528e78b9dbe325f0fd56eaf37b3d4a8bb9de8b810eee4a0beaae2d0a85d9a4e5d896073",
     "compatibleCorreoVersions" : [ "0.15.0" ]
   } ],
   "repositoryId" : "default"
@@ -118,10 +111,10 @@
   "projectUrl" : "http://www.correomqtt.org",
   "releases" : [ {
     "version" : "0.4.0",
-    "date" : "2023-06-04",
+    "date" : "2023-06-07",
     "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/xml-xsd-validator-plugin-0.4.0.jar",
-    "sha512sum" : "6609945079ca883aaa4d15d712d95f67ed773b47281d090e273827a6bc0d1894826a7ce68655fa7abcc2e0bbfd85ccb3efcb646bf922947703ef6d2b7e80baef",
+    "url" : "file:///opt/repos/correomqtt-plugins/xml-xsd-validator-plugin/target/xml-xsd-validator-plugin-0.4.0.jar",
+    "sha512sum" : "a357476a227cfee15847be619b8de1d13ffa8a70d1e030ca5891eca57d073b5a877892db1ae0656a08d0caf92befc070324a809a00b40781d94c3adba42482dc",
     "compatibleCorreoVersions" : [ "0.15.0" ]
   } ],
   "repositoryId" : "default"
@@ -133,10 +126,10 @@
   "projectUrl" : "http://www.correomqtt.org",
   "releases" : [ {
     "version" : "0.4.0",
-    "date" : "2023-06-04",
+    "date" : "2023-06-07",
     "requires" : "",
-    "url" : "https://github.com/EXXETA/correomqtt-plugins/releases/download/v0.4.0/zip-manipulator-plugin-0.4.0.jar",
-    "sha512sum" : "ac57c594770505af132105e757aca658efeff65718926b638c64ef576a48d2a232573e2bf897881aec72d3fbd8da9cdcccffacd90b973b7157ea0b499819f4c3",
+    "url" : "file:///opt/repos/correomqtt-plugins/zip-manipulator-plugin/target/zip-manipulator-plugin-0.4.0.jar",
+    "sha512sum" : "17ef54f02e83888700e12f4b0cc9131a848d07d707d1fc8e8fe17c63a1f1fbdc48a6238598ab716779974e8390aa3f00cd8468ce3c428acd92a51d6d43a9e5ba",
     "compatibleCorreoVersions" : [ "0.15.0" ]
   } ],
   "repositoryId" : "default"

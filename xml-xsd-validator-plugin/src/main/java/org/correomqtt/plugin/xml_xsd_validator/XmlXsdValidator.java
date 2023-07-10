@@ -1,6 +1,6 @@
 package org.correomqtt.plugin.xml_xsd_validator;
 
-import org.correomqtt.plugin.manager.PermissionPlugin;
+import org.correomqtt.business.provider.PluginConfigProvider;
 import org.correomqtt.plugin.spi.MessageValidatorHook;
 import org.pf4j.Extension;
 import org.pf4j.Plugin;
@@ -23,11 +23,6 @@ public class XmlXsdValidator implements MessageValidatorHook<XmlXsdValidatorConf
     private static final Logger LOGGER = LoggerFactory.getLogger(XmlXsdValidator.class);
 
     private String schemaFile;
-    private final PermissionPlugin plugin;
-
-    public XmlXsdValidator(Plugin plugin) {
-        this.plugin = (PermissionPlugin) plugin;
-    }
 
     @Override
     public void onConfigReceived(XmlXsdValidatorConfig config) {
@@ -40,14 +35,14 @@ public class XmlXsdValidator implements MessageValidatorHook<XmlXsdValidatorConf
             SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
             factory.setProperty(XMLConstants.ACCESS_EXTERNAL_DTD, "");
             factory.setProperty(XMLConstants.ACCESS_EXTERNAL_SCHEMA, "");
-            Schema schema = factory.newSchema(new File(plugin.getPluginConfigFolder(), schemaFile));
+            Schema schema = factory.newSchema(new File(PluginConfigProvider.getInstance().getPluginPath(), schemaFile));
             Validator validator = schema.newValidator();
             validator.validate(new StreamSource(new StringReader(payload)));
         } catch (IOException | SAXException e) {
             LOGGER.error(e.getMessage());
             return new Validation(false, e.getMessage());
         } catch (SecurityException e) {
-            LOGGER.error("Please put your schema file into {}", plugin.getPluginConfigFolder());
+            LOGGER.error("Please put your schema file into {}", PluginConfigProvider.getInstance().getPluginPath());
             return new Validation(false, "XSD file not found");
         }
         return new Validation(true, schemaFile);

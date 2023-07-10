@@ -47,7 +47,7 @@ public class SysTopicViewController implements SubscribeObserver {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(SysTopicViewController.class);
     private static final String SYS_TOPIC = "$SYS/#";
-    private static final ResourceBundle resources = ResourceBundle.getBundle("org.correomqtt.plugin.systopic.i18n", SettingsProvider.getInstance().getSettings().getCurrentLocale());
+    private static final ResourceBundle resources = ResourceBundle.getBundle("org.correomqtt.plugins.systopic.i18n", SettingsProvider.getInstance().getSettings().getCurrentLocale());
 
     private final SubscriptionPropertiesDTO subscriptionDTO = SubscriptionPropertiesDTO.builder()
             .topic(SYS_TOPIC)

@@ -20,6 +20,7 @@ import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -141,12 +142,14 @@ public class RepoBuild {
             url = "file://" + files[0].getAbsolutePath();
         }
 
-        List<RepoPluginInfoDTO.PluginRelease> releaseList = oldPluginInfo
-                .getReleases()
-                .stream()
-                .filter(r -> !r.getVersion().equals(version))
-                .distinct()
-                .collect(Collectors.toList());
+        List<RepoPluginInfoDTO.PluginRelease> releaseList = oldPluginInfo == null ?
+                new ArrayList<>() :
+                oldPluginInfo
+                        .getReleases()
+                        .stream()
+                        .filter(r -> !r.getVersion().equals(version))
+                        .distinct()
+                        .collect(Collectors.toList());
         releaseList.add(RepoPluginInfoDTO.PluginRelease.builder()
                 .url(url)
                 .requires("")

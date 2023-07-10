@@ -51,7 +51,7 @@ public class SysTopicCellController extends ListCell<SysTopicPropertiesDTO> {
             if (loader == null) {
                 try {
                     loader = new FXMLLoader(SysTopicCellController.class.getResource("/org/correomqtt/plugins/systopic/cell/sysTopicCell.fxml"),
-                            ResourceBundle.getBundle("org.correomqtt.plugin.systopic.i18n", SettingsProvider.getInstance().getSettings().getCurrentLocale()));
+                            ResourceBundle.getBundle("org.correomqtt.plugins.systopic.i18n", SettingsProvider.getInstance().getSettings().getCurrentLocale()));
                     loader.setController(this);
                     loader.load();
 
