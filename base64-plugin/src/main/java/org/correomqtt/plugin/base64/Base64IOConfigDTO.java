@@ -4,8 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.correomqtt.plugin.spi.IncomingMessageHookDTO;
-import org.correomqtt.plugin.spi.OutgoingMessageHookDTO;
 
 import java.util.List;
 
@@ -13,7 +11,7 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Base64IOConfigDTO implements IncomingMessageHookDTO, OutgoingMessageHookDTO {
+public class Base64IOConfigDTO {
 
     private boolean enableIncoming;
 

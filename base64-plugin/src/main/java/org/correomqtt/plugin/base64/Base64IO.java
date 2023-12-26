@@ -10,7 +10,7 @@ import org.pf4j.Extension;
 
 @Extension
 @ExtensionId("base64.io")
-public class Base64IO implements OutgoingMessageHook<Base64IOConfigDTO>, IncomingMessageHook<Base64IOConfigDTO> {
+public class Base64IO implements OutgoingMessageHook, IncomingMessageHook {
 
     private Base64IOConfigDTO config;
 
@@ -24,21 +24,5 @@ public class Base64IO implements OutgoingMessageHook<Base64IOConfigDTO>, Incomin
     public MessageExtensionDTO onPublishMessage(String connectionId, MessageExtensionDTO extensionMessageDTO) {
         extensionMessageDTO.setPayload(new String(Base64Utils.encode(extensionMessageDTO.getPayload().getBytes())));
         return extensionMessageDTO;
-    }
-
-    @Override
-    public Base64IOConfigDTO getConfig() {
-        return config;
-    }
-
-    @Override
-    public void onConfigReceived(Base64IOConfigDTO config) {
-        this.config = config;
-    }
-
-
-    @Override
-    public Class<Base64IOConfigDTO> getConfigClass() {
-        return Base64IOConfigDTO.class;
     }
 }
